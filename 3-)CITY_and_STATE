@@ -1,0 +1,4 @@
+//Consulte uma lista de CITY e STATE da tabela STATION.//
+
+select city, state 
+from station 

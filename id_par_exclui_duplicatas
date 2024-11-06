@@ -1,0 +1,6 @@
+//Consulte uma lista de nomes de CIDADES de ESTAÇÃO para cidades que tenham um número de ID par 
+ Imprima os resultados em qualquer ordem, mas exclua duplicatas da resposta.//
+
+SELECT DISTINCT CITY 
+FROM STATION 
+WHERE MOD(ID,2)=0 ORDER BY CITY ASC; 
